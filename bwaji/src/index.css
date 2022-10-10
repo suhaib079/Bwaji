@@ -1,0 +1,42 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+img{
+  margin: 0;
+  padding: 0;
+}
+  
+  
+  
+  li {
+    display: inline;
+    background-color: red;
+    margin: 20px;
+
+  }
+
+  .interior {
+    background-color: aqua;
+  }
+  .Mechanical {
+    background-color: blueviolet;
+  }
+  .Accessories {
+    background-color: rgb(43, 226, 76);
+  }
+  .exterior {
+    background-color: brown;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  .about{
+    background-color: blanchedalmond;
+  }
+
+  .about img{
+    width: 100px;
+    height: 100px;
+  } */
