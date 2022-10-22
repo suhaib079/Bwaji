@@ -40,3 +40,7 @@ img{
     width: 100px;
     height: 100px;
   } */
+
+  hr.new1 {
+    border-top: 1px solid rgb(107, 101, 101);
+  }

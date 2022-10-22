@@ -1,4 +1,5 @@
 import './categories.style.scss'
+// import { Outlet } from 'react-router-dom';
 const Categories = () => {
         const categories= [
             {
@@ -29,12 +30,14 @@ const Categories = () => {
           ]
 
     return ( 
+      <div>
+           
         <div className="categories-container">
             {categories.map(({ title,id,imageUrl})=>(
                 <div key={id} className='category-container'>
-                    <div className='background-image '>
-                        <img id='y' src={imageUrl}></img>
-                    </div>
+                    <div className='background-image' style={{
+                        backgroundImage: `url(${imageUrl})`
+                    }}/>
                  
                     <div className="category-body-container">
                         <h2>{title}</h2>
@@ -45,7 +48,8 @@ const Categories = () => {
             ))}
 
         </div>
-
+        {/* <Outlet/> */}
+        </div>
 
       );
 }
