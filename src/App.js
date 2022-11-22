@@ -10,7 +10,6 @@ import SignIn from './SignIn';
 
 
 function App() {
-  const logo = require('./Bwaji-logo.png'); 
   return (
      <div className="App">
         <NavBar/>

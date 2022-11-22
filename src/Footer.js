@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
-const logo = require('./Bwaji-logo.png'); 
 export const Footer = () => {
   return (
     <CDBFooter className="shadow">
@@ -9,7 +8,7 @@ export const Footer = () => {
         <CDBBox display="flex" justifyContent="between" className="flex-wrap">
           <CDBBox>
             <a href="/" className="d-flex align-items-center p-0 text-dark">
-              <img alt="logo" src={logo} width="30px" />
+              <img alt="logo" src="/images/logo/Bwaji-logo.png" width="30px" />
               <span className="ml-3 h5 font-weight-bold">Bwaji</span>
             </a>
             <p className="my-3" style={{ width: '250px' }}>
