@@ -1,9 +1,9 @@
-import {auth, signInWithGooglePopup,createUserDocumentFromAuth} from './utils/firebase/firebase.utils'
+import {auth, signInWithGooglePopup,createUserDocumentFromAuth} from '../utils/firebase/firebase.utils'
 import { useEffect } from 'react';
 import {getRedirectResult} from 'firebase/auth'
 // import { async } from '@firebase/util';
 
-import SignUpForm from './SignUpForm';
+import SignUpForm from '../SignUpForm';
 
 const SignIn = () => {
     
