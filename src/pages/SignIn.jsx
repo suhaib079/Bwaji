@@ -4,6 +4,7 @@ import {getRedirectResult} from 'firebase/auth'
 // import { async } from '@firebase/util';
 
 import SignUpForm from '../SignUpForm';
+import Layout from 'layouts/Auth';
 
 const SignIn = () => {
     
@@ -15,14 +16,16 @@ const SignIn = () => {
     }
 
     return ( 
-        <div>
+        
+        <Layout>
+
 
             <h1>sign in page</h1>
             <button onClick={logGoogleUser}>SIGN WITH GOOGLE</button>
             <SignUpForm/>
             
             {/* <button onClick={signInWithGoogleRedirect}>SIGN WITH GOOGLE redirect</button> */}
-        </div>
+        </Layout>
      );
 }
  
