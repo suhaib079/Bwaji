@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import {getRedirectResult} from 'firebase/auth'
 // import { async } from '@firebase/util';
 
-import SignUpForm from '../SignUpForm';
+import SignUpForm from '../components/SignUpForm';
 import Layout from 'layouts/Auth';
 
 const SignIn = () => {

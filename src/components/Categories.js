@@ -1,4 +1,4 @@
-import './styles/categories.style.scss'
+import 'styles/categories.style.scss'
 // import { Outlet } from 'react-router-dom';
 const Categories = () => {
         const categories= [
